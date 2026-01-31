@@ -227,3 +227,11 @@ def feature_7_handler(data):
     if not data:
         raise ValueError("Data cannot be empty")
     return {"processed": True, "iteration": 7}
+
+# [FEAT] Add configuration management
+# Related to issue #3
+def feature_9_handler(data):
+    """Handle feature 9 logic."""
+    if not data:
+        raise ValueError("Data cannot be empty")
+    return {"processed": True, "iteration": 9}

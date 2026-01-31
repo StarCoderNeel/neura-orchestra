@@ -46,3 +46,13 @@ flake8 src/
 ## License
 
 MIT License
+
+
+## Update 6: Update documentation and API reference
+
+This update addresses issue #4.
+
+### Changes
+- Update documentation and API reference
+- Improved code quality
+- Enhanced documentation

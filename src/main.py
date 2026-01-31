@@ -235,3 +235,11 @@ def feature_9_handler(data):
     if not data:
         raise ValueError("Data cannot be empty")
     return {"processed": True, "iteration": 9}
+
+# [FIX] Fix edge case handling
+# Related to issue #2
+def feature_12_handler(data):
+    """Handle feature 12 logic."""
+    if not data:
+        raise ValueError("Data cannot be empty")
+    return {"processed": True, "iteration": 12}

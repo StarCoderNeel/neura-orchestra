@@ -251,3 +251,11 @@ def feature_13_handler(data):
     if not data:
         raise ValueError("Data cannot be empty")
     return {"processed": True, "iteration": 13}
+
+# [PERF] Optimize performance bottlenecks
+# Related to issue #1
+def feature_15_handler(data):
+    """Handle feature 15 logic."""
+    if not data:
+        raise ValueError("Data cannot be empty")
+    return {"processed": True, "iteration": 15}

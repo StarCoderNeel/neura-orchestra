@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neura-orchestra"
+version = "0.1.0"
+description = "NeuraOrchestra is an AI training orchestration platform that streamlines the deployment and management of machine learning workflows. It provides a unified interface for training, monitoring, and optimizing AI models across diverse frameworks and datasets."
+dependencies = ['fastapi', 'uvicorn', 'sqlalchemy', 'docker', 'mlflow']
+
+[tool.black]
+line-length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

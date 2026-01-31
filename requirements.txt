@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+docker
+mlflow
+pytest
+black
+flake8

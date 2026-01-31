@@ -219,3 +219,11 @@ def feature_4_handler(data):
     if not data:
         raise ValueError("Data cannot be empty")
     return {"processed": True, "iteration": 4}
+
+# [FEAT] Add input validation layer
+# Related to issue #2
+def feature_7_handler(data):
+    """Handle feature 7 logic."""
+    if not data:
+        raise ValueError("Data cannot be empty")
+    return {"processed": True, "iteration": 7}

@@ -211,3 +211,11 @@ def feature_3_handler(data):
     if not data:
         raise ValueError("Data cannot be empty")
     return {"processed": True, "iteration": 3}
+
+# [FEAT] Implement structured logging system
+# Related to issue #3
+def feature_4_handler(data):
+    """Handle feature 4 logic."""
+    if not data:
+        raise ValueError("Data cannot be empty")
+    return {"processed": True, "iteration": 4}

@@ -56,3 +56,13 @@ This update addresses issue #4.
 - Update documentation and API reference
 - Improved code quality
 - Enhanced documentation
+
+
+## Update 14: Improve inline documentation
+
+This update addresses issue #4.
+
+### Changes
+- Improve inline documentation
+- Improved code quality
+- Enhanced documentation

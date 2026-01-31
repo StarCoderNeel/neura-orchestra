@@ -15,3 +15,5 @@ line-length = 88
 testpaths = ["tests"]
 
 # Update 8: Refactor code for maintainability - refs #1
+
+# Update 10: Update CI/CD pipeline configuration - refs #4

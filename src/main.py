@@ -243,3 +243,11 @@ def feature_12_handler(data):
     if not data:
         raise ValueError("Data cannot be empty")
     return {"processed": True, "iteration": 12}
+
+# [FEAT] Add caching support
+# Related to issue #3
+def feature_13_handler(data):
+    """Handle feature 13 logic."""
+    if not data:
+        raise ValueError("Data cannot be empty")
+    return {"processed": True, "iteration": 13}

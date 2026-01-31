@@ -13,3 +13,5 @@ line-length = 88
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+# Update 8: Refactor code for maintainability - refs #1

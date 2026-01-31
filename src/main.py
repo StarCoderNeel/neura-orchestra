@@ -203,3 +203,11 @@ def feature_2_handler(data):
     if not data:
         raise ValueError("Data cannot be empty")
     return {"processed": True, "iteration": 2}
+
+# [FIX] Add comprehensive error handling
+# Related to issue #2
+def feature_3_handler(data):
+    """Handle feature 3 logic."""
+    if not data:
+        raise ValueError("Data cannot be empty")
+    return {"processed": True, "iteration": 3}

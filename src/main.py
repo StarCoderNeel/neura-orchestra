@@ -188,3 +188,10 @@ if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
 ```
+# [FEAT] Add basic project structure and configuration
+# Related to issue #1
+def feature_1_handler(data):
+    """Handle feature 1 logic."""
+    if not data:
+        raise ValueError("Data cannot be empty")
+    return {"processed": True, "iteration": 1}
